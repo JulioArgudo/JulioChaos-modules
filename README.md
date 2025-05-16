@@ -25,3 +25,12 @@ The other three parameters **P1**, **P2** and **P3**, are mapped to the values o
 Since the ecuations are 3-dimensional, each point has 3 independent components, each mapped to one of the three outputs **X**, **Y** and **Z**.
 
 There is also a **Reset** input, which receives Trigger signals and returns the circuit to the initial conditions. Since the circuit is deterministic, this also serves as a Sync input.
+
+## Signals
+
+Chua's circuit is a chaotic non-linear system, known as a strange attractor, which means the signals generated are deterministic but non-periodic. Depending on the values of its parameters, the system has periodic states, noise-like states, and a spectrum of in-between states.
+
+<img width="1431" alt="Chua spectrum noise" src="https://github.com/user-attachments/assets/2432a71d-1571-45e5-801b-35b0c88c3ded" /> <br/>
+<img width="1433" alt="Chua spectrum harmonic" src="https://github.com/user-attachments/assets/85888f71-f2b6-4174-ab56-78832d48440e" />
+
+
