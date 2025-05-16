@@ -9,9 +9,9 @@ This plugin includes the module Chua's Oscillator, based on the chaotic behaviou
 <img width="251" alt="Chua osciloscope 2" src="https://github.com/user-attachments/assets/68e8f63a-ef84-4678-a8f0-923f4d5ffdfc" />
 <img width="272" alt="Chua osciloscope 3" src="https://github.com/user-attachments/assets/7d3d71d9-3ae8-4af6-90a9-913dfb1e922a" />
 
-## Ecuations
+## Chua's ecuations
 
-The Chua's Oscillator module follows the following differential ecuations:
+The Chua's Oscillator module follows the following differential ecuations modeling Chua's circuit:
 
 > f(x) = m1·x+(m0-m1)/2·(|x+1|-|x-1|) <br/>
 > dx/dt = c1·(y-x-f(x)) <br/>
@@ -20,6 +20,8 @@ The Chua's Oscillator module follows the following differential ecuations:
 
 These ecuations are solved using Euler's method, aproximating each increment with a straight line, and scaling the increment by sample with the parameter **Rate**. This parameter has an effect similar to a "frecuency" or "pitch" parameter in periodic oscillators. The button **HF/LF** changes the range of the **Rate** knob and CV modulation input between high frecuency and low frecuency.
 
-The other three knobs P1, P2 and P3, are mapped to the values of the ecuations constans **m0**, **m1**, **c1**, **c2** and **c3**. These parameters have unpredictable effects on the generated signal due to its chaotic nature.
+The other three parameters P1, P2 and P3, are mapped to the values of the ecuations constans **m0**, **m1**, **c1**, **c2** and **c3**. These have unpredictable effects on the generated signal due to its chaotic nature.
 
 Since the ecuations are 3-dimensional, each point has 3 independent components, each mapped to one of the three outputs **X**, **Y** and **Z**.
+
+There is also a **Reset** input, which receives Trigger signals and returns the circuit to the initial conditions. Since the circuit is deterministic, this also serves as a Sync input.
