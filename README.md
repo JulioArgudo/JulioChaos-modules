@@ -18,7 +18,8 @@ The Chua's Oscillator module follows the following differential ecuations:
 > dy/dt = c2·(x-y+z) <br/>
 > dz/dt = -c3·y
 
-These ecuations are solved using Euler's method, aproximating each increment with a straight line, and scaling the increment by sample with the parameter "Rate". This parameter has an effect similar to a "frecuency" or "pitch" parameter in periodic oscillators.
+These ecuations are solved using Euler's method, aproximating each increment with a straight line, and scaling the increment by sample with the parameter **Rate**. This parameter has an effect similar to a "frecuency" or "pitch" parameter in periodic oscillators. The button **HF/LF** changes the range of the **Rate** knob and CV modulation input between high frecuency and low frecuency.
 
-The other three knobs P1, P2 and P3, are mapped to the values of the ecuations constans m0, m1, C1, C2 and C3. These parameters have unpredictable effects on the generated signal due to its chaotic nature.
+The other three knobs P1, P2 and P3, are mapped to the values of the ecuations constans **m0**, **m1**, **c1**, **c2** and **c3**. These parameters have unpredictable effects on the generated signal due to its chaotic nature.
 
+Since the ecuations are 3-dimensional, each point has 3 independent components, each mapped to one of the three outputs **X**, **Y** and **Z**.
