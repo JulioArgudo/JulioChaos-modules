@@ -1,5 +1,5 @@
 # JulioChaos-modules
-A VCV Rack PLugin for Chaotic Oscillator modules
+A VCV Rack Plugin for Chaotic Oscillator modules
 
 This plugin includes the module Chua's Oscillator, based on the chaotic behaviour of Chua's circuit
 
