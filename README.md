@@ -26,11 +26,16 @@ Since the ecuations are 3-dimensional, each point has 3 independent components, 
 
 There is also a **Reset** input, which receives Trigger signals and returns the circuit to the initial conditions. Since the circuit is deterministic, this also serves as a Sync input.
 
+
 ## Signals
 
-Chua's circuit is a chaotic non-linear system, known as a strange attractor, which means the signals generated are deterministic but non-periodic. Depending on the values of its parameters, the system has periodic states, noise-like states, and a spectrum of in-between states.
+Chua's circuit is a chaotic non-linear system, known as a [strange attractor](https://en.m.wikipedia.org/wiki/Attractor#Strange_attractor), which means the signals generated are deterministic but non-periodic. Depending on the values of its parameters, the system has periodic states, noise-like states, and a spectrum of in-between states.
 
 <img width="1431" alt="Chua spectrum noise" src="https://github.com/user-attachments/assets/2432a71d-1571-45e5-801b-35b0c88c3ded" /> <br/>
 <img width="1433" alt="Chua spectrum harmonic" src="https://github.com/user-attachments/assets/85888f71-f2b6-4174-ab56-78832d48440e" />
 
+
+The three signal outputs **X**, **Y** and **Z**, corresponding to the three components of the system, have similar behaviours, but different spectral qualities, which can be useful when used as an audio signal.
+
+<img width="1431" alt="Chua spectrum XYZ" src="https://github.com/user-attachments/assets/df7a3ef1-6965-4c2b-aa6a-b1d7df08273d" />
 
