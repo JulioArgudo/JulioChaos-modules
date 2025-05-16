@@ -1,7 +1,7 @@
 # JulioChaos-modules
-A VCV Rack Plugin for Chaotic Oscillator modules
+A [VCV Rack](https://vcvrack.com/) Plugin for Chaotic Oscillator modules
 
-This plugin includes the module Chua's Oscillator, based on the chaotic behaviour of Chua's circuit
+This plugin includes the module Chua's Oscillator, based on the chaotic behaviour of [Chua's circuit](https://www.chuacircuits.com/diagram.php)
 
 <img width="196" alt="Chua panel screenshot" src="https://github.com/user-attachments/assets/7073683f-dac3-4c9d-9254-928a8755642f" /> <br/>
 
@@ -13,14 +13,14 @@ This plugin includes the module Chua's Oscillator, based on the chaotic behaviou
 
 The Chua's Oscillator module follows the following differential ecuations modeling Chua's circuit:
 
-> f(x) = m1·x+(m0-m1)/2·(|x+1|-|x-1|) <br/>
-> dx/dt = c1·(y-x-f(x)) <br/>
-> dy/dt = c2·(x-y+z) <br/>
-> dz/dt = -c3·y
+> f(x) = m1\*x+(m0-m1)/2\*(|x+1|-|x-1|) <br/>
+> dx/dt = c1\*(y-x-f(x)) <br/>
+> dy/dt = c2\*(x-y+z) <br/>
+> dz/dt = -c3\*y
 
-These ecuations are solved using Euler's method, aproximating each increment with a straight line, and scaling the increment by sample with the parameter **Rate**. This parameter has an effect similar to a "frecuency" or "pitch" parameter in periodic oscillators. The button **HF/LF** changes the range of the **Rate** knob and CV modulation input between high frecuency and low frecuency.
+These ecuations are solved using [Euler's method](https://en.wikipedia.org/wiki/Euler_method), aproximating each increment with a straight line, and scaling the increment by sample with the parameter **Rate**. This parameter has an effect similar to a "frecuency" or "pitch" parameter in periodic oscillators. The button **HF/LF** changes the range of the **Rate** knob and CV modulation input between high frecuency and low frecuency.
 
-The other three parameters P1, P2 and P3, are mapped to the values of the ecuations constans **m0**, **m1**, **c1**, **c2** and **c3**. These have unpredictable effects on the generated signal due to its chaotic nature.
+The other three parameters **P1**, **P2** and **P3**, are mapped to the values of the ecuations constans m0, m1, c1, c2 and c3. These have unpredictable effects on the generated signal due to its chaotic nature.
 
 Since the ecuations are 3-dimensional, each point has 3 independent components, each mapped to one of the three outputs **X**, **Y** and **Z**.
 
