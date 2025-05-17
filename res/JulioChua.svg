@@ -35,12 +35,12 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1792"
-     inkscape:window-height="1007"
+     inkscape:window-height="1005"
      id="namedview234"
      showgrid="false"
-     inkscape:zoom="1.5581955"
-     inkscape:cx="-170.06852"
-     inkscape:cy="128.3536"
+     inkscape:zoom="2.6507164"
+     inkscape:cx="-12.072208"
+     inkscape:cy="238.42611"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -114,19 +114,33 @@
      rx="11.037527"
      ry="11.019997" />
   <ellipse
-     style="fill:#ffd42a;stroke-width:0.948525"
+     style="fill:#ffd42a;stroke-width:1.02178"
      id="path15-0"
-     cx="37.214031"
-     cy="79.110802"
-     rx="19.382784"
-     ry="19.351999" />
+     cx="37.281395"
+     cy="79.305756"
+     rx="20.879801"
+     ry="20.846638" />
   <ellipse
-     style="fill:#ffd42a;stroke-width:0.948525"
+     style="fill:#ffd42a;stroke-width:1.02178"
+     id="path15-0-2"
+     cx="36.970024"
+     cy="165.66568"
+     rx="20.879801"
+     ry="20.846638" />
+  <ellipse
+     style="fill:#ffd42a;stroke-width:1.02178"
+     id="path15-0-2-4"
+     cx="97.440727"
+     cy="165.81761"
+     rx="20.879801"
+     ry="20.846638" />
+  <ellipse
+     style="fill:#ffd42a;stroke-width:1.02178"
      id="path15-5"
-     cx="97.150681"
-     cy="78.986374"
-     rx="19.382784"
-     ry="19.351999" />
+     cx="97.218048"
+     cy="79.311295"
+     rx="20.879801"
+     ry="20.846638" />
   <g
      id="ae4c5001-d221-412c-abb3-d19d79fe7eca"
      data-name="FND GRAPH">
@@ -138,7 +152,7 @@
        rx="4.3163638"
        fill="#1f1f1f"
        id="rect12"
-       style="stroke-width:1.23398" />
+       style="stroke-width:1.23398;fill:#896317;fill-opacity:1" />
     <g
        id="g22"
        style="display:none">
@@ -667,31 +681,17 @@
      rx="0"
      ry="0" />
   <rect
-     style="fill:#ffd42a;stroke-width:1.07087"
-     id="rect2"
-     width="4.4718485"
+     style="fill:#ffd42a;stroke-width:0.91601"
+     id="rect2-4-8"
+     width="3.2720001"
      height="379.99472"
-     x="3.2306984e-09"
-     y="0.043239899" />
+     x="0.012632076"
+     y="-0.016836805" />
   <rect
-     style="fill:#ffd42a;stroke-width:1.07087"
+     style="fill:#ffd42a;stroke-width:0.91601"
      id="rect2-4"
-     width="4.4718485"
+     width="3.2720001"
      height="379.99472"
-     x="130.50508"
-     y="0.040769275" />
-  <ellipse
-     style="fill:#ffd42a;stroke-width:0.948525"
-     id="path15"
-     cx="37.293816"
-     cy="165.48994"
-     rx="19.382784"
-     ry="19.351999" />
-  <ellipse
-     style="fill:#ffd42a;stroke-width:0.948525"
-     id="path15-9"
-     cx="97.294998"
-     cy="165.45398"
-     rx="19.382784"
-     ry="19.351999" />
+     x="131.70937"
+     y="0.0031713042" />
 </svg>
