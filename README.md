@@ -13,10 +13,7 @@ This plugin includes the module Chua's Oscillator, based on the chaotic behaviou
 
 The Chua's Oscillator module follows the following differential ecuations modeling Chua's circuit:
 
-> f(x) = m1\*x+(m0-m1)/2\*(|x+1|-|x-1|) <br/>
-> dx/dt = c1\*(y-x-f(x)) <br/>
-> dy/dt = c2\*(x-y+z) <br/>
-> dz/dt = -c3\*y
+<img width="433" alt="Captura de pantalla 2025-05-17 a las 21 15 56" src="https://github.com/user-attachments/assets/768b2efe-cf0f-44e2-b312-aa3cf4aed3c7" />
 
 These ecuations are solved using [Euler's method](https://en.wikipedia.org/wiki/Euler_method), aproximating each increment with a straight line, and scaling the increment by sample with the parameter **Rate**. This parameter has an effect similar to a "frecuency" or "pitch" parameter in periodic oscillators. The button **HF/LF** changes the range of the **Rate** knob and CV modulation input between high frecuency and low frecuency.
 
