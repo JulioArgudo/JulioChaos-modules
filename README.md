@@ -36,7 +36,7 @@ Chua's circuit is a chaotic non-linear system, known as a [strange attractor](ht
 <img width="1433" alt="Chua spec harm" src="https://github.com/user-attachments/assets/ce758b03-37a2-4d15-bb00-e0f5b39d7506" />
 
 
-The three signal outputs **X**, **Y** and **Z**, corresponding to the three components of the system, have similar behaviours, but different spectral qualities, which can be useful when used as an audio signal.
+The three signal outputs **X**, **Y** and **Z**, corresponding to the three components of the system, have similar behaviours but different spectral qualities, which can be useful when used as an audio signal.
 
 <img width="1433" alt="Chua spec XYZ" src="https://github.com/user-attachments/assets/7a51c7c9-dd60-4442-89cb-03e592c5229e" />
 
