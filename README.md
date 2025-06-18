@@ -3,9 +3,16 @@ A [VCV Rack](https://vcvrack.com/) Plugin for Chaotic Oscillator modules
 
 <img width="898" alt="Modules" src="https://github.com/user-attachments/assets/5c9c1239-e5c1-4b8a-9358-798100216be4" /><br/>
 
-## Chua's oscillator
+These modules solve the differential ecuations of each system using [Euler's method](https://en.wikipedia.org/wiki/Euler_method), aproximating each increment with a straight line, and scaling the increment by sample with the parameter **Rate**. This parameter has an effect similar to a "frecuency" or "pitch" parameter in periodic oscillators. The button **HF/LF** changes the range of the **Rate** knob and CV modulation input between high frecuency and low frecuency.
 
-<img width="117" alt="Chua panel screenshot" src="https://github.com/user-attachments/assets/20a69a28-0ef2-4a42-8b7d-f83d1a1e3654" /> <br/>
+The other three parameters **P1**, **P2** and **P3**, are mapped to the values of the ecuations constans. These have unpredictable effects on the generated signal due to its chaotic nature.
+
+Since the ecuations are 3-dimensional, each point has 3 independent components, each mapped to one of the three outputs **X**, **Y** and **Z**.
+
+There is also a **Reset** input, which receives Trigger signals and returns the system to its initial conditions. Since the systems are deterministic, this also serves as a Sync input.
+
+
+## Chua's oscillator
 
 <img width="264" alt="Chua osciloscope 1" src="https://github.com/user-attachments/assets/605b9070-16a8-4cb6-9c8b-9cc936b8abab" />
 <img width="251" alt="Chua osciloscope 2" src="https://github.com/user-attachments/assets/68e8f63a-ef84-4678-a8f0-923f4d5ffdfc" />
@@ -15,23 +22,17 @@ The Chua's Oscillator module follows the following differential ecuations modeli
 
 <img width="433" alt="Chua equations" src="https://github.com/user-attachments/assets/768b2efe-cf0f-44e2-b312-aa3cf4aed3c7" />
 
-These ecuations are solved using [Euler's method](https://en.wikipedia.org/wiki/Euler_method), aproximating each increment with a straight line, and scaling the increment by sample with the parameter **Rate**. This parameter has an effect similar to a "frecuency" or "pitch" parameter in periodic oscillators. The button **HF/LF** changes the range of the **Rate** knob and CV modulation input between high frecuency and low frecuency.
-
-The other three parameters **P1**, **P2** and **P3**, are mapped to the values of the ecuations constans m0, m1, c1, c2 and c3. These have unpredictable effects on the generated signal due to its chaotic nature.
-
-Since the ecuations are 3-dimensional, each point has 3 independent components, each mapped to one of the three outputs **X**, **Y** and **Z**.
-
-There is also a **Reset** input, which receives Trigger signals and returns the circuit to the initial conditions. Since the circuit is deterministic, this also serves as a Sync input.
-
-
 ## Rossler's oscillator
 
-<img width="260" alt="Rossler screenshot" src="https://github.com/user-attachments/assets/9322baee-142f-468b-b7cd-7e5369886515" />
+The Rossler's oscillator module follows the following differential ecuations modeling [Rossler's attractor](https://en.wikipedia.org/wiki/R%C3%B6ssler_attractor):
 
+<img width="255" alt="Rossler equations" src="https://github.com/user-attachments/assets/7cf31ceb-7e52-437a-9591-9e4eca26183b" />
 
 ## Lorentz84 oscillator
 
-<img width="261" alt="Lorentz84 screenshot" src="https://github.com/user-attachments/assets/bd6c5b37-e1a6-4d5d-876f-4d26bc409ac1" />
+The Lorentz84 oscillator module follows the following differential ecuations modeling the [Lorentz84 system](https://docs.dart.ucar.edu/en/latest/models/lorenz_84/readme.html):
+
+<img width="355" alt="Lorentz84 equations" src="https://github.com/user-attachments/assets/e39449e0-7a47-4fb0-b756-df1bb9e14c8b" />
 
 ## Signals
 
