@@ -1,7 +1,7 @@
 {
   "slug": "JulioChaos",
   "name": "Julio's Chaotic Oscillators",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "BSD-3-Clause",
   "brand": "Julio Argudo",
   "author": "Julio Argudo",
@@ -14,10 +14,37 @@
   "changelogUrl": "",
   "modules": [
     {
+      "slug": "JulioRossler",
+      "name": "Rossler's Oscillator",
+      "description": "Chaotic oscillator based on Rossler's attractor",
+      "tags": [
+        "Function generator",
+        "Low-frequency oscillator",
+        "Noise",
+        "Oscillator"
+      ]
+    },
+    {
       "slug": "JulioChua",
       "name": "Chua's Oscillator",
       "description": "Chaotic oscillator based on Chua's circuit",
-      "tags": ["Function generator","Low-frequency oscillator","Noise","Oscillator"]
+      "tags": [
+        "Function generator",
+        "Low-frequency oscillator",
+        "Noise",
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "JulioLorentz84",
+      "name": "Lorentz84 Oscillator",
+      "description": "Chaotic oscillator based on the Lorentz84 system",
+      "tags": [
+          "Function generator",
+          "Low-frequency oscillator",
+          "Noise",
+          "Oscillator"
+        ]
     }
   ]
 }
