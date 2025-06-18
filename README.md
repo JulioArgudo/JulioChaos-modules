@@ -1,19 +1,19 @@
 # JulioChaos-modules
 A [VCV Rack](https://vcvrack.com/) Plugin for Chaotic Oscillator modules
 
-This plugin includes the module Chua's Oscillator, based on the chaotic behaviour of [Chua's circuit](https://www.chuacircuits.com/diagram.php)
+<img width="898" alt="Modules" src="https://github.com/user-attachments/assets/5c9c1239-e5c1-4b8a-9358-798100216be4" /><br/>
 
-<img width="225" alt="Chua panel screenshot" src="https://github.com/user-attachments/assets/20a69a28-0ef2-4a42-8b7d-f83d1a1e3654" /> <br/>
+## Chua's oscillator
+
+<img width="117" alt="Chua panel screenshot" src="https://github.com/user-attachments/assets/20a69a28-0ef2-4a42-8b7d-f83d1a1e3654" /> <br/>
 
 <img width="264" alt="Chua osciloscope 1" src="https://github.com/user-attachments/assets/605b9070-16a8-4cb6-9c8b-9cc936b8abab" />
 <img width="251" alt="Chua osciloscope 2" src="https://github.com/user-attachments/assets/68e8f63a-ef84-4678-a8f0-923f4d5ffdfc" />
 <img width="272" alt="Chua osciloscope 3" src="https://github.com/user-attachments/assets/7d3d71d9-3ae8-4af6-90a9-913dfb1e922a" />
 
-## Chua's ecuations
+The Chua's Oscillator module follows the following differential ecuations modeling [Chua's circuit](https://www.chuacircuits.com/diagram.php):
 
-The Chua's Oscillator module follows the following differential ecuations modeling Chua's circuit:
-
-<img width="433" alt="Captura de pantalla 2025-05-17 a las 21 15 56" src="https://github.com/user-attachments/assets/768b2efe-cf0f-44e2-b312-aa3cf4aed3c7" />
+<img width="433" alt="Chua equations" src="https://github.com/user-attachments/assets/768b2efe-cf0f-44e2-b312-aa3cf4aed3c7" />
 
 These ecuations are solved using [Euler's method](https://en.wikipedia.org/wiki/Euler_method), aproximating each increment with a straight line, and scaling the increment by sample with the parameter **Rate**. This parameter has an effect similar to a "frecuency" or "pitch" parameter in periodic oscillators. The button **HF/LF** changes the range of the **Rate** knob and CV modulation input between high frecuency and low frecuency.
 
@@ -23,6 +23,15 @@ Since the ecuations are 3-dimensional, each point has 3 independent components, 
 
 There is also a **Reset** input, which receives Trigger signals and returns the circuit to the initial conditions. Since the circuit is deterministic, this also serves as a Sync input.
 
+
+## Rossler's oscillator
+
+<img width="260" alt="Rossler screenshot" src="https://github.com/user-attachments/assets/9322baee-142f-468b-b7cd-7e5369886515" />
+
+
+## Lorentz84 oscillator
+
+<img width="261" alt="Lorentz84 screenshot" src="https://github.com/user-attachments/assets/bd6c5b37-e1a6-4d5d-876f-4d26bc409ac1" />
 
 ## Signals
 
