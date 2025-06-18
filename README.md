@@ -25,8 +25,8 @@ The Chua's Oscillator module follows the following differential ecuations modeli
 ## Rossler's oscillator
 
 <img width="255" alt="Rossler1" src="https://github.com/user-attachments/assets/a9367c44-c900-47ff-973f-33c34663ed14" />
-<img width="286" alt="Rossler2" src="https://github.com/user-attachments/assets/21c8c7c5-ade4-453f-a8fc-0c298172cef8" />
-<img width="282" alt="Rossler3" src="https://github.com/user-attachments/assets/87c0f556-5d1a-404c-a588-1592fca93525" />
+<img width="246" alt="Rossler2" src="https://github.com/user-attachments/assets/21c8c7c5-ade4-453f-a8fc-0c298172cef8" />
+<img width="242" alt="Rossler3" src="https://github.com/user-attachments/assets/87c0f556-5d1a-404c-a588-1592fca93525" />
 
 The Rossler's oscillator module follows the following differential ecuations modeling [Rossler's attractor](https://en.wikipedia.org/wiki/R%C3%B6ssler_attractor):
 
