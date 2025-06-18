@@ -24,11 +24,21 @@ The Chua's Oscillator module follows the following differential ecuations modeli
 
 ## Rossler's oscillator
 
+<img width="255" alt="Rossler1" src="https://github.com/user-attachments/assets/a9367c44-c900-47ff-973f-33c34663ed14" />
+<img width="286" alt="Rossler2" src="https://github.com/user-attachments/assets/21c8c7c5-ade4-453f-a8fc-0c298172cef8" />
+<img width="282" alt="Rossler3" src="https://github.com/user-attachments/assets/87c0f556-5d1a-404c-a588-1592fca93525" />
+
 The Rossler's oscillator module follows the following differential ecuations modeling [Rossler's attractor](https://en.wikipedia.org/wiki/R%C3%B6ssler_attractor):
 
 <img width="255" alt="Rossler equations" src="https://github.com/user-attachments/assets/7cf31ceb-7e52-437a-9591-9e4eca26183b" />
 
+In this case, as the ecuations constants and the module parameters have a 1-to-1 correspondance, the module parameters are named **A**, **B** and **C**, after the constant each of them modify.
+
 ## Lorentz84 oscillator
+
+<img width="255" alt="Lorentz84 1" src="https://github.com/user-attachments/assets/494c32fd-2a1e-4bde-a0f3-a4f633a6dec4" />
+<img width="243" alt="Lorentz84 2" src="https://github.com/user-attachments/assets/c2d3f411-38e2-42ca-84d2-4d9b60d4fc16" />
+<img width="246" alt="Lorentz84 3" src="https://github.com/user-attachments/assets/744515f8-63f4-4311-883a-02c59fb4c786" />
 
 The Lorentz84 oscillator module follows the following differential ecuations modeling the [Lorentz84 system](https://docs.dart.ucar.edu/en/latest/models/lorenz_84/readme.html):
 
@@ -36,7 +46,7 @@ The Lorentz84 oscillator module follows the following differential ecuations mod
 
 ## Signals
 
-Chua's circuit is a chaotic non-linear system, known as a [strange attractor](https://en.m.wikipedia.org/wiki/Attractor#Strange_attractor), which means the signals generated are deterministic but non-periodic. Depending on the values of its parameters, the system has periodic states, noise-like states, and a spectrum of in-between states.
+These oscillators are chaotic non-linear system, known as [strange attractors](https://en.m.wikipedia.org/wiki/Attractor#Strange_attractor), which means the signals generated are deterministic but non-periodic. Depending on the values of its parameters, the system has periodic states, noise-like states, and a spectrum of in-between states.
 
 
 <img width="1434" alt="Chua spec noise" src="https://github.com/user-attachments/assets/8556cc73-d31f-4abf-b14b-231a98b45e7e" /><br/>
