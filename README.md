@@ -12,6 +12,7 @@ Since the ecuations are 3-dimensional, each point has 3 independent components, 
 There is also a **Reset** input, which receives Trigger signals and returns the system to its initial conditions. Since the systems are deterministic, this also serves as a Sync input.
 
 
+
 ## Chua's oscillator
 
 <img width="264" alt="Chua osciloscope 1" src="https://github.com/user-attachments/assets/605b9070-16a8-4cb6-9c8b-9cc936b8abab" />
@@ -21,6 +22,8 @@ There is also a **Reset** input, which receives Trigger signals and returns the 
 The Chua's Oscillator module follows the following differential ecuations modeling [Chua's circuit](https://www.chuacircuits.com/diagram.php):
 
 <img width="433" alt="Chua equations" src="https://github.com/user-attachments/assets/768b2efe-cf0f-44e2-b312-aa3cf4aed3c7" />
+
+
 
 ## Rossler's oscillator
 
@@ -34,6 +37,8 @@ The Rossler's oscillator module follows the following differential ecuations mod
 
 In this case, as the ecuations constants and the module parameters have a 1-to-1 correspondance, the module parameters are named **A**, **B** and **C**, after the constant each of them modify.
 
+
+
 ## Lorentz84 oscillator
 
 <img width="255" alt="Lorentz84 1" src="https://github.com/user-attachments/assets/494c32fd-2a1e-4bde-a0f3-a4f633a6dec4" />
@@ -43,6 +48,8 @@ In this case, as the ecuations constants and the module parameters have a 1-to-1
 The Lorentz84 oscillator module follows the following differential ecuations modeling the [Lorentz84 system](https://docs.dart.ucar.edu/en/latest/models/lorenz_84/readme.html):
 
 <img width="355" alt="Lorentz84 equations" src="https://github.com/user-attachments/assets/e39449e0-7a47-4fb0-b756-df1bb9e14c8b" />
+
+
 
 ## Signals
 
