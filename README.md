@@ -35,7 +35,7 @@ The Rossler's oscillator module follows the following differential ecuations mod
 
 <img width="255" alt="Rossler equations" src="https://github.com/user-attachments/assets/7cf31ceb-7e52-437a-9591-9e4eca26183b" />
 
-In this case, as the ecuations constants and the module parameters have a 1-to-1 correspondance, the module parameters are named **A**, **B** and **C**, after the constant each of them modify.
+In this case, as the ecuations constants and the module parameters have a 1-to-1 correspondence, the module parameters are named **A**, **B** and **C**, after the constant each of them modify.
 
 
 
